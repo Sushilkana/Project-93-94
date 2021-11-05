@@ -1,0 +1,22 @@
+#log_out{
+    float:right;
+    margin-top:0px;
+}
+
+h1{
+    background-color: rgba(0, 0, 255, 0.568);
+    color: white;
+    width:30%;
+    font-size:90px;
+    font-family:Ceviche One;
+    margin-top: 3%;
+}
+
+#img1{
+    height:100px;
+    width:100px;
+}
+
+body{
+    background-size:cover;
+}
