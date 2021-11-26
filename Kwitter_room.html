@@ -14,29 +14,30 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="Kwitter_room.css">
 
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src="Kwitter_room.js"></script>
 
     <title> Let-Chat-Web-App </title>
 </head>
 
 <body background="White-Lotus-beautiful-flower.jpg">
-    <button id="log_out" class="btn btn-danger">  Log Out <span class="material-icons-outlined"> logout </span> </button> 
+    <button id="log_out" class="btn btn-danger" onclick="Log_out()"> Log Out <span class="material-icons-outlined">
+            logout </span> </button>
 
     <div>
         <center>
             <h1> Kwitter <img id="img1" src="logo1.png" alt="logo"> </h1> <br>
-            <label for="text" id="welcome"> edef </label> <br> <br>
+            <h3 class="color_white" id="welcome"></h3> <br> <br>
             <input id="Room_Name" type="text" placeholder="Enter the room name" class="form-control" style="width:30%;"> <br>
-            <button id="Add_Room" class="btn btn-success" onclick="Add_Room()"> Add Room <span class="material-icons-outlined"> meeting_room </span> </button>
+            <button id="Add_Room" class="btn btn-success" onclick="Add_room()"> Add Room <span class="material-icons-outlined"> meeting_room </span> </button> <br> <hr>
         </center>
     </div> <br>
-
-    <div>
-
-    </div>
+    <div id="Output"> </div>
+    <script src="Kwitter_room.js"></script>
 </body>
 
 </html>
