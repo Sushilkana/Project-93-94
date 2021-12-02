@@ -42,6 +42,32 @@
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 
+#logout{
+	font-size: 20px; float: right;
+}
+
+.header{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+
+#output{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_message_page{
+    margin-top:370px;width: 100%;background: rgba(255,255,255,0.8);
+}
+
+body{
+	background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
+
+
+
+.header img{
+	width: 80px;margin-left: -15px;
+}
+
 body{
     background-size: cover;
 }
